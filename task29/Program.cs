@@ -6,9 +6,9 @@ Console.WriteLine($"\nЗадача 29. Ряд чисел преобразует 
 Console.Write("Введите ряд чисел, разделенных запятой : ");
 string? seriesOfNumbers = Console.ReadLine();
 
-seriesOfNumbers = seriesOfNumbers + ",";    // дополнительня запятая для обозначения конца строки
+seriesOfNumbers = seriesOfNumbers + ",";    
 
-// функция удаления пробелов из строки 
+ 
 string RemovingSpaces (string series){
   string seriesNew = "";
   for (int i = 0; i < series.Length; i++)
@@ -21,7 +21,7 @@ string RemovingSpaces (string series){
   return seriesNew;
 }
 
-//  функция  проверки на правильность ввода 
+ 
 void СheckNumber2 (int  series){
 
       if (series == '0'||series == '1'||series == '2'
@@ -36,10 +36,10 @@ void СheckNumber2 (int  series){
       }
 }
 
-// функция  создания и заполнения массива из строки
+
 int[] ArrayOfNumbers(string seriesNew){ 
 
-  int[] arrayOfNumbers = new int[1];    // инициализация массива из 1 элемента
+  int[] arrayOfNumbers = new int[1];    
 
   int j =0;
 
@@ -51,16 +51,16 @@ int[] ArrayOfNumbers(string seriesNew){
       СheckNumber2(seriesNew[i]);
       i++;
     }
-    arrayOfNumbers[j] = Convert.ToInt32(seriesNew1);    // заполняет массив значениями из строки
+    arrayOfNumbers[j] = Convert.ToInt32(seriesNew1);    
     if (i < seriesNew.Length-1){
-      arrayOfNumbers = arrayOfNumbers.Concat(new int[] {0}).ToArray();    // добавляет новый нулевой элемент в конец массива
+      arrayOfNumbers = arrayOfNumbers.Concat(new int[] {0}).ToArray();    
     }
     j++;
   }
   return arrayOfNumbers;
 }
 
-// функция  вывода массива на печать 
+ 
 void PrintArry(int[] coll){
   int count = coll.Length;
   int index = 0;

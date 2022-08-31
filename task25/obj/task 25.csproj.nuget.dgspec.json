@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 25\\task 25.csproj": {}
+    "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task25\\task 25.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 25\\task 25.csproj": {
+    "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task25\\task 25.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 25\\task 25.csproj",
+        "projectUniqueName": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task25\\task 25.csproj",
         "projectName": "task 25",
-        "projectPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 25\\task 25.csproj",
+        "projectPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task25\\task 25.csproj",
         "packagesPath": "C:\\Users\\vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 25\\obj\\",
+        "outputPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task25\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config"

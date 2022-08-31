@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 29\\task 29.csproj",
+      "projectUniqueName": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task29\\task 29.csproj",
       "projectName": "task 29",
-      "projectPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 29\\task 29.csproj",
+      "projectPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task29\\task 29.csproj",
       "packagesPath": "C:\\Users\\vladimir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task 29\\obj\\",
+      "outputPath": "C:\\Users\\vladimir\\Desktop\\git progects\\sem4\\task29\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config"

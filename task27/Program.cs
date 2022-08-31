@@ -2,8 +2,8 @@
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
-Console.WriteLine($"\nЗадача 27. Выдаёт сумму цифр в числе");
-Console.Write("Введите число N: ");
+Console.WriteLine("__Задача 27. Выдаёт сумму цифр в числе");
+Console.Write(" __Введите число N: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
 
   int SumNumber(int numberN){
@@ -21,4 +21,4 @@ int numberN = Convert.ToInt32(Console.ReadLine());
   }
 
 int sumNumber = SumNumber(numberN);
-Console.WriteLine("Сумма цифр в числе: " + sumNumber);
+Console.WriteLine("___Сумма цифр в числе: " + sumNumber);
